@@ -1,6 +1,6 @@
 /*
  ============================================================================
- Name        : test_1.c
+ Name        : functions.c
  Author      : 
  Version     :
  Copyright   : Your copyright notice
@@ -12,9 +12,6 @@
 #include <stdlib.h>
 
 int main(void) {
-	int num;
-	printf("Enter the number : ");
-	scanf("%d", &num);
-	printf("The number is : %d", num);
+	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
 	return EXIT_SUCCESS;
 }
