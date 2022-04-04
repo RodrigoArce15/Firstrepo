@@ -1,6 +1,6 @@
 /*
  ============================================================================
- Name        : test_1.c
+ Name        : user_imput.c
  Author      : 
  Version     :
  Copyright   : Your copyright notice
@@ -11,8 +11,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
-	const int num = 6;
-	printf("The number : %d", num);
-	return 0;
+int main(void) {
+	int age;
+	printf("Enter your age : ");
+	scanf("%d", &age);
+	printf("You are %d years old", age);
+	return EXIT_SUCCESS;
 }
